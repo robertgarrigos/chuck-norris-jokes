@@ -1,0 +1,26 @@
+{
+    "name": "robertgarrigos/chuck-norris-jokes",
+    "description": "Create random Chuck Norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "robertgarrigos",
+            "email": "robert@garrigos.cat"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RobertGarrigos\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RobertGarrigos\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
